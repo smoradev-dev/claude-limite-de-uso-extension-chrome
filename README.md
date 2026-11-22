@@ -1,12 +1,12 @@
-# Claude Límite de Uso: extensión de Chrome para ver cuánto uso te queda en Claude
+# Claude Límite de Uso: extensión de Chrome para ver cuánto uso te queda en Claude (plan Free)
 
 **Extensión gratuita y de código abierto en español** para Chrome, Opera GX, Edge y Brave que muestra **cuánto te queda del límite de uso de Claude** (claude.ai): el porcentaje restante de la sesión de 5 horas y del límite semanal, la **hora exacta en que se reinicia** y **cuántos mensajes más puedes enviar** antes de llegar al tope.
 
-¿Te salió "Has alcanzado el límite de mensajes" en Claude sin aviso? Con esta extensión ves el contador de uso de Claude en tiempo real, recibes una alerta antes de quedarte sin mensajes y una notificación cuando el límite se reinicia. Funciona con Claude Free, Pro y Max.
+¿Te salió "Has alcanzado el límite de mensajes" en Claude sin aviso? Con esta extensión ves el contador de uso de Claude en tiempo real, recibes una alerta antes de quedarte sin mensajes y una notificación cuando el límite se reinicia. Está pensada **principalmente para el plan gratuito (Claude Free)**, donde el límite se acaba más rápido y conviene saber cuántos mensajes te quedan; también funciona con Pro y Max.
 
 > Proyecto no oficial, sin relación con Anthropic. Todo se procesa en tu navegador: no envía datos a ningún servidor.
 
-**Palabras clave:** límite de uso de Claude, cuánto me queda en Claude, contador de mensajes Claude, reinicio del límite de Claude, uso semanal Claude, extensión Claude en español, Claude usage tracker.
+**Palabras clave:** límite de uso de Claude, Claude gratis, plan Free de Claude, cuánto me queda en Claude, contador de mensajes Claude, reinicio del límite de Claude, uso semanal Claude, extensión Claude en español, Claude usage tracker.
 
 
 ## Instalar o actualizar
@@ -59,3 +59,6 @@ node tests/shared.test.js
 - La duración de la ventana se reconoce también con claves tipo `five_hour` / `seven_day`, así el ritmo semanal funciona con más formatos.
 - Menos trabajo: solo se guarda y redibuja cuando algo cambia, y el stream ya no hace `JSON.parse` de cada trozo de texto.
 - La barra reaparece en 1 s si claude.ai la borra al recargar su interfaz; "enviados hoy" se reinicia a medianoche aunque no envíes nada.
+
+## Licencia
+Código abierto bajo la [licencia MIT](LICENSE): puedes usarlo, modificarlo y compartirlo libremente.
