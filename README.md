@@ -1,4 +1,13 @@
-# Claude Uso Restante (extensión de Chrome / Opera GX)
+# Claude Límite de Uso: extensión de Chrome para ver cuánto uso te queda en Claude
+
+**Extensión gratuita y de código abierto en español** para Chrome, Opera GX, Edge y Brave que muestra **cuánto te queda del límite de uso de Claude** (claude.ai): el porcentaje restante de la sesión de 5 horas y del límite semanal, la **hora exacta en que se reinicia** y **cuántos mensajes más puedes enviar** antes de llegar al tope.
+
+¿Te salió "Has alcanzado el límite de mensajes" en Claude sin aviso? Con esta extensión ves el contador de uso de Claude en tiempo real, recibes una alerta antes de quedarte sin mensajes y una notificación cuando el límite se reinicia. Funciona con Claude Free, Pro y Max.
+
+> Proyecto no oficial, sin relación con Anthropic. Todo se procesa en tu navegador: no envía datos a ningún servidor.
+
+**Palabras clave:** límite de uso de Claude, cuánto me queda en Claude, contador de mensajes Claude, reinicio del límite de Claude, uso semanal Claude, extensión Claude en español, Claude usage tracker.
+
 
 ## Instalar o actualizar
 1. Descomprime la carpeta `claude-uso-ext`.
